@@ -3,25 +3,110 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Términos de Servicio — Tridev Soluciones</title>
+  <title>Términos y Condiciones de Servicio — Tridev Soluciones</title>
   <style>
-    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; line-height: 1.6; max-width: 800px; margin: 40px auto; padding: 0 20px; color: #333; }
-    h1, h2 { color: #1a73e8; }
-    a { color: #1a73e8; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+      line-height: 1.7;
+      max-width: 850px;
+      margin: 40px auto;
+      padding: 0 20px;
+      color: #2c3e50;
+    }
+    h1 { color: #1a73e8; border-bottom: 2px solid #e8f0fe; padding-bottom: 12px; }
+    h2 { color: #174ea6; margin-top: 32px; }
+    h3 { color: #202124; margin-top: 20px; }
+    p, li { font-size: 15px; }
+    a { color: #1a73e8; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .meta-box {
+      background: #f8f9fa;
+      border-left: 4px solid #1a73e8;
+      padding: 14px 18px;
+      margin: 20px 0;
+      font-size: 14px;
+    }
+    footer {
+      border-top: 1px solid #e0e0e0;
+      margin-top: 50px;
+      padding-top: 20px;
+      font-size: 0.9em;
+      text-align: center;
+      color: #5f6368;
+    }
   </style>
 </head>
 <body>
+
   <p><a href="index.html">← Volver al inicio</a></p>
-  <h1>Términos de Servicio</h1>
-  <p><strong>Última actualización:</strong> Septiembre 2026</p>
 
-  <h2>1. Descripción del Servicio</h2>
-  <p>AutoDate proporciona un servicio de asistencia tecnológica que permite a clientes y negocios coordinar reservas y citas a través de canales de mensajería y sincronizarlas con herramientas de calendario digital como Google Calendar.</p>
+  <h1>Términos y Condiciones de Servicio</h1>
+  <div class="meta-box">
+    <strong>Última actualización:</strong> Septiembre de 2026<br>
+    <strong>Prestador del servicio:</strong> [Tu Nombre o Razón Social de la Empresa]<br>
+    <strong>Contacto de soporte:</strong> tridevsoluciones@gmail.com
+  </div>
 
-  <h2>2. Uso Aceptable</h2>
-  <p>El usuario se compromete a utilizar el servicio exclusivamente para la concertación de citas legítimas y a proporcionar información veraz. Queda terminantemente prohibido el envío de spam, contenido ilícito o intentos de alteración de los sistemas automatizados.</p>
+  <h2>1. Objeto y Ámbito de Aplicación</h2>
+  <p>El presente documento regula el acceso, registro y uso de la plataforma tecnológica <strong>Tridev Soluciones</strong> (el "Servicio"), un software bajo modalidad SaaS (Software as a Service) diseñado para permitir a negocios, profesionales independientes y centros de servicios ("Clientes B2B" o "Tenants") automatizar la recepción de solicitudes, consulta de disponibilidad y confirmación de citas con sus respectivos usuarios finales ("Clientes Finales") mediante canales de mensajería instantánea y sincronización de agendas digitales.</p>
 
-  <h2>3. Integración con Terceros</h2>
-  <p>El funcionamiento de las citas puede depender de servicios de terceros (Meta, Google). AutoDate no asume responsabilidad por interrupciones ajenas a su plataforma ni por la disponibilidad final ofrecida por los profesionales del negocio.</p>
+  <h2>2. Descripción de las Funcionalidades</h2>
+  <p>Tridev Soluciones proporciona herramientas de software que incluyen:</p>
+  <ul>
+    <li>Atención conversacional automatizada mediante la API oficial de WhatsApp Cloud de Meta.</li>
+    <li>Procesamiento estructurado de lenguaje natural para la interpretación de fechas y servicios solicitados.</li>
+    <li>Lectura y reserva bidireccional de disponibilidad contra cuentas externas de <strong>Google Calendar</strong> vinculadas individualmente por cada profesional.</li>
+    <li>Mecanismos de notificación y confirmación de agendas tanto para profesionales como para usuarios finales.</li>
+  </ul>
+
+  <h2>3. Cuentas y Conexión con Servicios de Terceros</h2>
+  <p>Para la correcta prestación del Servicio, Tridev Soluciones interactúa con diversas plataformas externas:</p>
+  <ul>
+    <li><strong>Google Calendar API:</strong> El profesional o negocio autoriza a Tridev Soluciones el acceso a su calendario mediante el protocolo OAuth 2.0. Tridev Soluciones únicamente consulta eventos y disponibilidad de franjas libres y crea los eventos correspondientes a las citas confirmadas. Los datos de autenticación se almacenan con cifrado de seguridad en reposo.</li>
+    <li><strong>Meta WhatsApp Cloud API:</strong> La transmisión y recepción de mensajes depende de la infraestructura técnica de Meta Platforms Ireland Ltd. El Cliente B2B debe aceptar las políticas de mensajería empresarial de Meta.</li>
+  </ul>
+
+  <h2>4. Obligaciones y Uso Aceptable</h2>
+  <p>El usuario (tanto el negocio contratante como el cliente final que interactúa con el sistema) se compromete a:</p>
+  <ul>
+    <li>Proporcionar información veraz, exacta y actualizada en las solicitudes de reserva.</li>
+    <li>No emplear el canal para el envío masivo de comunicaciones comerciales no solicitadas (spam), contenido difamatorio, ilegal o fraudulento.</li>
+    <li>No realizar técnicas de ingeniería inversa, inyecciones de código (prompt injection) ni intentos deliberados de vulnerar o sobrecargar los servidores o las bases de datos del sistema.</li>
+  </ul>
+
+  <h2>5. Responsabilidad sobre la Prestación del Servicio Final</h2>
+  <p><strong>Tridev Soluciones es exclusivamente un intermediario tecnológico y proveedor de software.</strong> Tridev Soluciones no presta los servicios finales acordados entre el Cliente B2B y el Cliente Final (como consultas médicas, tratamientos dentales, entrenamientos, cortes de cabello u otros análogos). En consecuencia:</p>
+  <ul>
+    <li>Tridev Soluciones no asume responsabilidad alguna por la puntualidad, calidad, cumplimiento, costes, cancelaciones o reclamaciones derivadas de la relación entre el profesional y su cliente.</li>
+    <li>El profesional o negocio es el único responsable de mantener actualizada la disponibilidad real de su agenda y de atender los turnos agendados.</li>
+  </ul>
+
+  <h2>6. Disponibilidad del Sistema y Limitación de Responsabilidad</h2>
+  <p>AutoDate implementa medidas técnicas diligentes para garantizar la continuidad y seguridad del servicio. No obstante, en la máxima medida permitida por la legislación aplicable:</p>
+  <ul>
+    <li>Tridev Soluciones no se hace responsable de caídas, interrupciones o retrasos originados por fallos en los servidores de Meta Platforms, Google LLC, cortes de telecomunicaciones o incidencias de fuerza mayor ajenas a su control directo.</li>
+    <li>Tridev Soluciones no garantiza que el software esté libre de errores imprevistos, aunque aplicará sus mejores esfuerzos técnicos para su corrección en plazos razonables.</li>
+  </ul>
+
+  <h2>7. Protección de Datos y Privacidad</h2>
+  <p>El tratamiento de datos personales derivado de la utilización de AutoDate se rige conforme a lo dispuesto en nuestra <a href="privacidad.html">Política de Privacidad</a> y en el Reglamento General de Protección de Datos (RGPD UE 2016/679). Los Clientes B2B que contraten la plataforma reconocen a AutoDate como Encargado del Tratamiento (Art. 28 RGPD) para la gestión técnica de las reservas.</p>
+
+  <h2>8. Modificaciones de los Términos</h2>
+  <p>Tridev Soluciones se reserva el derecho a actualizar o modificar los presentes Términos y Condiciones cuando resulte necesario por motivos normativos o mejoras técnicas del producto. Cualquier cambio sustancial será publicado en esta misma página con indicación de su fecha de entrada en vigor.</p>
+
+  <h2>9. Ley Aplicable y Jurisdicción</h2>
+  <p>Estos Términos de Servicio se rigen por la legislación común española y comunitaria europea. Para la resolución de cualquier controversia que pudiera derivarse del uso de la plataforma, las partes se someten a los juzgados y tribunales competentes de España, salvo que la legislación de consumidores aplicable establezca imperativamente otro fuero.</p>
+
+  <footer>
+    <p>&copy; 2026 Tridev Soluciones. Todos los derechos reservados.</p>
+    <p>
+      <a href="index.html">Inicio</a> |
+      <a href="aviso-legal.html">Aviso Legal</a> |
+      <a href="privacidad.html">Política de Privacidad</a> |
+      <a href="terminos.html">Términos de Servicio</a> |
+      <a href="eliminacion-datos.html">Eliminación de Datos</a>
+    </p>
+  </footer>
+
 </body>
 </html>
